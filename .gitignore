@@ -1,0 +1,92 @@
+# ignore files with no extenion
+*
+!*.*
+!*/
+
+#libra office
+.~lock.*
+
+# XCode
+## User settings
+xcuserdata/
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
+
+# valguard
+vgcore.*
+#JetBrain's Clion
+.idea/
+cmake-build-debug/
+1
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+*.sdf
+*.user
+*.suo
+*.opensdf
+*.db
+Debug/
+ipch/
+x64/
+.vs/
+
+#tempfiles
+~$_*.*
+
+#codelite
+.clang/
+.codelite/
+Debug/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+# *.slo
+# *.lo
+# *.o
+# *.obj
+
+# Precompiled Headers
+# *.gch
+# *.pch
+
+# Compiled Dynamic libraries
+# *.so
+# *.dylib
+# *.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+# *.lai
+# *.la
+# *.a
+# *.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#compressed files
+*.zip
+*.rar
+
+#3pp libraries
+glfw-3.3.9/
+
+
+#build folders
+build/
+.vs-build/
+vs-build/
+cmake-build/
+vs-solution/
